@@ -5,6 +5,9 @@ features = [[150, 0], [170, 0],
 labels = ["orange", "orange",
           "apple", "apple","apple"]
 
+clf = tree.DecisionTreeClassifier()
+clf = clf.fit(features, labels)
+
 weight = input("Enter the weight : ")
 texture = input("Enter the Texture of the fruit : ")
 
