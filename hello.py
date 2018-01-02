@@ -24,4 +24,4 @@ print ("The fruit  you are searching for is :")
 print(clf.predict([[weight, texture]]))
 
 
-hello friend my name is ankit kotnala . I was your fan .
+hello friend my name is ankit kotnala . 
